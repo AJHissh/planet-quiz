@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-light" style="background-image: url('img/space.jpg');">
+        <h1> Space and the History Of </h1>
+            <div class="container-fluid justify-content-center">
+                <a href="index.html" button class="btn btn-outline-primary me-2" type="button">Home</button></a>
+                <a href="about.html" button class="btn btn-outline-primary me-2" type="button">Our Vision</button></a>
+                <a href="quiz.html" button class="btn btn-outline-primary me-2" type="button">History and Space Quiz</button></a>
+                <a href="contact.html" button class="btn btn-outline-primary me-2" type="button">Contact Us</button></a>
+            </div>
+        </nav>
+            <h2> Our Solar System </h2>
+            <div class="table-responsive">
+            <table class = "table table-striped table-hover">
+            <tbody>
+                    <tr onClick="rowClick()">
+                    <td><h6>Mercury</h6> <p id="p1">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes.</p> </td>
+                    <td style ="word-break:break-all;"><img class= "mercury" src="img\Mercury.jpg"></td>
+                    </tr>
+                    <tr onClick="rowClick1()">
+                    <td><h6>Venus</h6> <p id="p2">Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be visible to the naked eye in broad daylight.Venus lies within Earth's orbit, and so never appears to venture far from the Sun. Most of the time, Venus is either a morning star or an evening star, when it rises in the east a little while before dawn or sets in the west just after dusk, respectively.</p> </td>
+                    <td><img class= "venus" src="img\Venus.jpg"></td>
+                    </tr>
+                    <tr onClick="rowClick2()">
+                    <td><h6>Earth</h6> <p id="p3">Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large amounts of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes and rivers. The remaining 29% of Earth's surface is land, consisting of continents and islands. Earth's surface layer is formed of several slowly moving tectonic plates, interacting to produce mountain ranges, volcanoes and earthquakes. Earth's liquid outer core generates the magnetic field that shapes Earth's magnetosphere, deflecting destructive solar winds.</p></td>
+                    <td><img class= "earth" src="img\Earth.jpg"></td>
+                    </tr>
+                    <tr onClick="rowClick3()">
+                    <td><h6>Mars</h6> <p id="p4"> Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the "Red Planet".The latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a striking reddish appearance in the sky.Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon, and the valleys, deserts and polar ice caps of Earth. </p></td>
+                    <td><img class= "mars" src="img\Mars.jpg"></td>
+                    </tr>
+                    <tr onClick="rowClick4()">
+                    <td><h6>Jupiter</h6> <p id="p5">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus. People have been observing it since prehistoric times; it was named after the Roman god Jupiter, the king of the gods, because of its observed size. </p></td>
+                    <td><img class= "jupiter" src="img\Jupiter.jpg"></td>
+                    </tr>
+                    <tr onClick="rowClick5()">
+                    <td><h6>Saturn</h6> <p id="p6">Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.It only has one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.</p></td>
+                    <td><img class= "saturn" src="img\Saturn.jpg"></td>
+                    </tr>
+                    <tr onClick="rowClick6()">
+                    <td><h6>Uranus</h6> <p id="p7">Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as "ice giants" to distinguish them from the other giant planets.</p></td>
+                    <td><img class= "uranus" src="img\Uranus.jpg"></td>
+                    </tr>
+                    <tr onClick="rowClick7()">
+                    <td><h6>Neptune</h6> <p id="p8">Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. It is referred to as one of the solar system's two ice giant planets.</p></td>
+                    <td><img class= "neptune" src="img\Neptune.jpg"></td>
+                    </tr>
+            </tbody>
+            </table>
+            </div>
+    <script type="text/javascript" src="events.js"></script>
+    </body>
+</html>

@@ -1,0 +1,204 @@
+h1 {
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0080FF;
+}
+
+h6 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.navbar {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.container-fluid {
+    margin: 10px;
+}
+
+.btn {
+    margin: 25px;
+    text-align: center;
+}
+
+.mercury {
+    height:  200px;
+    width: 220px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.venus {
+    height:  200px;
+    width: 220px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saturn {
+    height:  200px;
+    width: 222px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uranus {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.earth {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.neptune {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mars {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jupiter {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#p1 {
+    margin-top: 15px;
+    width: 20em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p2 {
+    margin-top: 15px;
+    width: 20em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p3 {
+    margin-top: 15px;
+    width: 20em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p4 {
+    margin-top: 15px;
+    width: 20em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p5 {
+    margin-top: 15px;
+    width: 20em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p6 {
+    margin-top: 15px;
+    width: 20em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p7 {
+    margin-top: 15px;
+    width: 20em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p8 {
+    margin-top: 15px;
+    width: 20em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutheader {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.quizheader {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contactheader {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#slideinfo {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+h5 {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: green;
+}
+
+.venushot {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 350px;
+}
+
+.notif {
+    margin-top: 20px;
+}
+
+#p-answer {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20em;
+}
